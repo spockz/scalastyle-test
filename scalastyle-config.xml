@@ -1,0 +1,9 @@
+<scalastyle>
+    <name>Some Configuration</name>
+
+    <check level="error" class="org.scalastyle.file.RegexChecker" enabled="true">
+        <parameters>
+            <parameter name="regex"><![CDATA[Await.result\([^,]*\)]]></parameter>
+        </parameters>
+    </check>
+</scalastyle>
